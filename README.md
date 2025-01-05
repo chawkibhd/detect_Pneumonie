@@ -80,18 +80,18 @@ These features are either:
 ## 5. Project Structure
 
 ```bash
-DETECT_PNEUMONIE/
-├── metrics/                             # Project models metrics 
-│   ├── cnn                              # CNN metrics                             
-│   └── logistic_regression              # Logistic regression metrics              
-│       ├── multi_features               # single model metrics      
-│       └── single_feature               # multi model metrics      
+DETECT_PNEUMONIE/     
 ├── core/
 │   ├── ImageFeatureExtractor.py         # CSV filling using feature extraction
 │   └── PneumoniaDetectorApp.py          # Tkinter main app
 ├── data/
 │   ├── multi_features.csv               # Gabor, DCT, Fourier, PHOG features in separate columns
 │   └── single_feature.csv               # Combined features in a single column
+├── metrics/                             # Project models metrics 
+│   ├── cnn                              # CNN metrics                             
+│   └── logistic_regression              # Logistic regression metrics              
+│       ├── multi_features               # single model metrics      
+│       └── single_feature               # multi model metrics 
 ├── model_training/
 │   ├── cnn/
 │   │   └── tensorflow-cnn.ipynb         # Notebook for CNN training

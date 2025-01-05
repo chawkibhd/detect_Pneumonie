@@ -81,6 +81,11 @@ These features are either:
 
 ```bash
 DETECT_PNEUMONIE/
+├── metrics/                             # Project models metrics 
+│   ├── cnn                              # CNN metrics                             
+│   └── logistic_regression              # Logistic regression metrics              
+│       ├── multi_features               # single model metrics      
+│       └── single_feature               # multi model metrics      
 ├── core/
 │   ├── ImageFeatureExtractor.py         # CSV filling using feature extraction
 │   └── PneumoniaDetectorApp.py          # Tkinter main app

@@ -1,0 +1,28 @@
+name: chest-xray-classification
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10.16
+  - cudatoolkit=11.2.2
+  - cudnn=8.1.0.77
+  - numpy=1.26.4
+  - pandas=2.2.3
+  - matplotlib=3.10.0
+  - seaborn=0.13.2
+  - scikit-learn=1.6.0
+  - scikit-image=0.20.0
+  - opencv=4.8.1
+  - pillow=11.0.0
+  - tk
+  - pip
+  - pip:
+      - tensorflow==2.10.1
+      - absl-py==2.1.0
+      - astunparse==1.6.3
+      - h5py==3.12.1
+      - joblib==1.4.2
+      - keras==2.10.0
+      - opencv-python==4.10.0.84
+      - scipy==1.14.1
+      - threadpoolctl==3.5.0
